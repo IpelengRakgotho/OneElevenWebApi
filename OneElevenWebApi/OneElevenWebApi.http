@@ -1,0 +1,6 @@
+@OneElevenWebApi_HostAddress = http://localhost:5074
+
+GET {{OneElevenWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
