@@ -6,7 +6,11 @@ namespace OneElevenWebApi.Controllers
     [Route("api/[controller]")]
     public class StringSortController : ControllerBase
     {
-        
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok("API is running");
+        }
 
         [HttpPost]
         public IActionResult SortCharacters([FromBody] InputModel input)
