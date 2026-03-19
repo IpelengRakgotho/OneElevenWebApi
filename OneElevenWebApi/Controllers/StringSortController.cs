@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace OneElevenWebApi.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class StringSortController : ControllerBase
     {
         
